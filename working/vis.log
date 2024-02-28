@@ -3,15 +3,15 @@ running with 16 threads
 testlevel = 4
 LoadBSPFile: 'Spire.bsp'
 BSP is version 29
-   107 leafs
-   296 portals
+   113 leafs
+   307 portals
 Calculating Base Vis:
 0....1....2....3....4....5....6....7....8....9....
 Calculating Full Vis:
 0....1....2....3....4....5....6....7....8....9....
-average leafs visible: 67
+average leafs visible: 70
 c_noclip: 0
-c_chains: 102327
-visdatasize:1520  compressed from 1498
+c_chains: 102578
+visdatasize:1747  compressed from 1695
 Writing Spire.bsp as BSP version 29
   0.1 seconds elapsed
