@@ -1,29 +1,26 @@
 @echo off
 
 cd\
-cd C:\QuakeMapDev\working
+cd C:\Users\molla\Documents\GitHub\QuakeMapDev\working
 
 
 echo Copying Files...
-copy C:\QuakeMapDev\id1\maps\ZombieMap.map C:\QuakeMapDev\working
+copy C:\Users\molla\Documents\GitHub\QuakeMapDev\working\Spire.map C:\Users\molla\Documents\GitHub\QuakeMapDev\working
 
 
 echo Converting map...
 
 
 echo --------------QBSP--------------
-C:\QuakeMapDev\tools\ericw-tools\bin\qbsp.exe ZombieMap
+C:\Users\molla\Documents\GitHub\QuakeMapDev\tools\ericw-tools\bin\qbsp.exe Spire
 
 echo --------------VIS---------------
-C:\QuakeMapDev\tools\ericw-tools\bin\vis.exe ZombieMap
+C:\Users\molla\Documents\GitHub\QuakeMapDev\tools\ericw-tools\bin\vis.exe Spire
 
-echo -------------LIGHT--------------
-C:\QuakeMapDev\tools\ericw-tools\bin\light.exe ZombieMap
-
-copy ZombieMap.bsp C:\QuakeMapDev\id1\maps
-copy ZombieMap.pts C:\QuakeMapDev\id1\maps
-copy ZombieMap.lit C:\QuakeMapDev\id1\maps
+copy Spire.bsp C:\Users\molla\Documents\GitHub\QuakeMapDev\id1\maps
+copy Spire.pts C:\Users\molla\Documents\GitHub\QuakeMapDev\id1\maps
+copy Spire.lit C:\Users\molla\Documents\GitHub\QuakeMapDev\id1\maps
 pause
 cd\
-cd C:\QuakeMapDev
-quakespasm-spiked-win64  +map ZombieMap
+cd C:\Users\molla\Documents\GitHub\QuakeMapDev
+quakespasm-spiked-win64  +map Spire
