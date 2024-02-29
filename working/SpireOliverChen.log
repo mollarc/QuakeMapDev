@@ -3,61 +3,80 @@ Input file: SpireOliverChen.map
 Output file: SpireOliverChen.bsp
 
 ---- LoadMapFile ----
-          684 faces
-          114 brushes
-           43 entities
+          870 faces
+          145 brushes
+           47 entities
             5 unique texnames
-          124 texinfo
+          120 texinfo
 
 Opened WAD: ../wads/prototype_1_3.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          112 brushes
-          118 planes
+          141 brushes
+          135 planes
 ---- CSGFaces ----
-          672 brushfaces
-          697 csgfaces
-          624 mergedfaces
+          846 brushfaces
+          896 csgfaces
+          808 mergedfaces
 ---- SolidBSP ----
-          744 split nodes
-          296 solid leafs
-          421 empty leafs
-           28 water leafs
+          988 split nodes
+          392 solid leafs
+          557 empty leafs
+           40 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         1850 leaffaces
-         1761 nodefaces
+         2396 leaffaces
+         2273 nodefaces
 ---- Portalize ----
-          449 vis leafs
-          449 vis clusters
-         1209 vis portals
+          597 vis leafs
+          597 vis clusters
+         1552 vis portals
 ---- FillOutside ----
-*** WARNING 10: Reached occupant at (512 672 24), no filling performed.
-Leak file written to SpireOliverChen.pts
+          339 outleafs
+---- MergeAll ----
+          612 mergefaces
+---- SolidBSP ----
+          360 split nodes
+          174 solid leafs
+          154 empty leafs
+           33 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         1271 leaffaces
+         1040 nodefaces
+---- Portalize ----
+          187 vis leafs
+          187 vis clusters
+          504 vis portals
+---- Tjunc ----
+          760 world edges
+         2966 edge points
+          790 edges added by tjunctions
+            0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
-*** WARNING 10: Reached occupant at (-768 480 448), no filling performed.
 Processing hull 2...
-*** WARNING 10: Reached occupant at (-768 480 448), no filling performed.
 ---- WriteBSPFile ----
 Wrote SpireOliverChen.bsp
-          207 planes             4140
-         1980 vertexes          23760
-          756 nodes             18144
-          107 texinfo            4280
-         1773 faces             35460
-         1454 clipnodes         11632
-          462 leafs             12936
-         1862 marksurfaces       3724
-         7092 surfedges         28368
-         4455 edges             17820
+          201 planes             4020
+         1219 vertexes          14628
+          384 nodes              9216
+           81 texinfo            3240
+         1064 faces             21280
+          719 clipnodes          5752
+          212 leafs              5936
+         1295 marksurfaces       2590
+         5046 surfedges         20184
+         2524 edges             10096
             5 textures          60064
               lightdata             0
               visdata               0
-              entdata            2612
+              entdata            2968
 
-0.101 seconds elapsed
-Peak memory usage: 8205480 (7.8M)
+0.131 seconds elapsed
+Peak memory usage: 7351066 (7.0M)

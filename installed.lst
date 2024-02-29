@@ -1,0 +1,21 @@
+version 2
+set updatemode "1"
+set declined ""
+"bcspring" guessed=1 ver=???? gamedir= file=maps/bcspring.bsp
+"cardow" guessed=1 ver=???? gamedir= file=maps/cardow.bsp
+"coilgun" guessed=1 ver=???? gamedir= file=sound/weapons/coilgun.wav
+"ocspring" guessed=1 ver=???? gamedir= file=maps/ocspring.bsp
+"rrspring" guessed=1 ver=???? gamedir= file=maps/rrspring.bsp
+"spawn" guessed=1 ver=???? gamedir= file=progs/spawn.mdl
+"spireoc" guessed=1 ver=???? gamedir= file=maps/spireoc.bsp
+"vwplayer" guessed=1 ver=???? gamedir= file=progs/vwplayer.mdl
+"v_coil" guessed=1 ver=???? gamedir= file=progs/v_coil.mdl
+"w_axe" guessed=1 ver=???? gamedir= file=progs/w_axe.mdl
+"w_coil" guessed=1 ver=???? gamedir= file=progs/w_coil.mdl
+"w_light" guessed=1 ver=???? gamedir= file=progs/w_light.mdl
+"w_nail" guessed=1 ver=???? gamedir= file=progs/w_nail.mdl
+"w_nail2" guessed=1 ver=???? gamedir= file=progs/w_nail2.mdl
+"w_rock" guessed=1 ver=???? gamedir= file=progs/w_rock.mdl
+"w_rock2" guessed=1 ver=???? gamedir= file=progs/w_rock2.mdl
+"w_shot" guessed=1 ver=???? gamedir= file=progs/w_shot.mdl
+"w_shot2" guessed=1 ver=???? gamedir= file=progs/w_shot2.mdl
