@@ -1,0 +1,63 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: SpireOliverChen.map
+Output file: SpireOliverChen.bsp
+
+---- LoadMapFile ----
+          684 faces
+          114 brushes
+           43 entities
+            5 unique texnames
+          124 texinfo
+
+Opened WAD: ../wads/prototype_1_3.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+          112 brushes
+          118 planes
+---- CSGFaces ----
+          672 brushfaces
+          697 csgfaces
+          624 mergedfaces
+---- SolidBSP ----
+          744 split nodes
+          296 solid leafs
+          421 empty leafs
+           28 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         1850 leaffaces
+         1761 nodefaces
+---- Portalize ----
+          449 vis leafs
+          449 vis clusters
+         1209 vis portals
+---- FillOutside ----
+*** WARNING 10: Reached occupant at (512 672 24), no filling performed.
+Leak file written to SpireOliverChen.pts
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+*** WARNING 10: Reached occupant at (-768 480 448), no filling performed.
+Processing hull 2...
+*** WARNING 10: Reached occupant at (-768 480 448), no filling performed.
+---- WriteBSPFile ----
+Wrote SpireOliverChen.bsp
+          207 planes             4140
+         1980 vertexes          23760
+          756 nodes             18144
+          107 texinfo            4280
+         1773 faces             35460
+         1454 clipnodes         11632
+          462 leafs             12936
+         1862 marksurfaces       3724
+         7092 surfedges         28368
+         4455 edges             17820
+            5 textures          60064
+              lightdata             0
+              visdata               0
+              entdata            2612
+
+0.101 seconds elapsed
+Peak memory usage: 8205480 (7.8M)
