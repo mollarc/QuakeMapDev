@@ -3,15 +3,24 @@ Input file: SpireOliverChen.map
 Output file: SpireOliverChen.bsp
 
 ---- LoadMapFile ----
+<<<<<<< Updated upstream
           870 faces
           145 brushes
            47 entities
             5 unique texnames
           120 texinfo
+=======
+         1714 faces
+          286 brushes
+          149 entities
+           28 unique texnames
+          389 texinfo
+>>>>>>> Stashed changes
 
 Opened WAD: ../wads/prototype_1_3.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
+<<<<<<< Updated upstream
           141 brushes
           135 planes
 ---- CSGFaces ----
@@ -23,16 +32,38 @@ Processing hull 0...
           392 solid leafs
           557 empty leafs
            40 water leafs
+=======
+          276 brushes
+          248 planes
+---- CSGFaces ----
+         1654 brushfaces
+         1765 csgfaces
+         1619 mergedfaces
+---- SolidBSP ----
+         2127 split nodes
+          815 solid leafs
+         1241 empty leafs
+           72 water leafs
+>>>>>>> Stashed changes
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
+<<<<<<< Updated upstream
          2396 leaffaces
          2273 nodefaces
 ---- Portalize ----
           597 vis leafs
           597 vis clusters
          1552 vis portals
+=======
+         4675 leaffaces
+         4216 nodefaces
+---- Portalize ----
+         1313 vis leafs
+         1313 vis clusters
+         4044 vis portals
+>>>>>>> Stashed changes
 ---- FillOutside ----
           339 outleafs
 ---- MergeAll ----
@@ -61,6 +92,7 @@ Processing hull 0...
 ---- GrowRegions ----
 Processing hull 1...
 Processing hull 2...
+<<<<<<< Updated upstream
 ---- WriteBSPFile ----
 Wrote SpireOliverChen.bsp
           201 planes             4020
@@ -80,3 +112,50 @@ Wrote SpireOliverChen.bsp
 
 0.131 seconds elapsed
 Peak memory usage: 7351066 (7.0M)
+=======
+*** WARNING 10: Reached occupant at (-560 -48 -312), no filling performed.
+*** WARNING 16: Texture sfloor1_3 not found
+*** WARNING 16: Texture twall2_6 not found
+*** WARNING 16: Texture sfloor4_8 not found
+*** WARNING 16: Texture twall5_3 not found
+*** WARNING 16: Texture metal1_7 not found
+*** WARNING 16: Texture *04awater1 not found
+*** WARNING 16: Texture sfloor4_6 not found
+*** WARNING 16: Texture ceiling1_2 not found
+*** WARNING 16: Texture *teleport not found
+*** WARNING 16: Texture twall2_1 not found
+*** WARNING 16: Texture metal8_3 not found
+*** WARNING 16: Texture twall2_2 not found
+*** WARNING 16: Texture twall5_1 not found
+*** WARNING 16: Texture metal2_4 not found
+*** WARNING 16: Texture metal9_2 not found
+*** WARNING 16: Texture twall2_5 not found
+*** WARNING 16: Texture sfloor4_7 not found
+*** WARNING 16: Texture sfloor4_2 not found
+*** WARNING 16: Texture sfloor4_1 not found
+*** WARNING 16: Texture twall4_1 not found
+*** WARNING 16: Texture metalt2_7 not found
+*** WARNING 16: Texture metal7_7 not found
+*** WARNING 16: Texture twall1_2 not found
+*** WARNING 16: Texture metal5_3 not found
+*** WARNING 16: Texture sfloor1_2 not found
+---- WriteBSPFile ----
+Wrote SpireOliverChen.bsp
+          396 planes             7920
+         4813 vertexes          57756
+         2187 nodes             52488
+          329 texinfo           13160
+         4284 faces             85680
+         4247 clipnodes         33976
+         1374 leafs             38472
+         4743 marksurfaces       9486
+        17136 surfedges         68544
+        10992 edges             43968
+           28 textures          49196
+              lightdata             0
+              visdata               0
+              entdata            9097
+
+0.181 seconds elapsed
+Peak memory usage: 21268886 (20.3M)
+>>>>>>> Stashed changes
