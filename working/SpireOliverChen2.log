@@ -1,0 +1,66 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: SpireOliverChen2.map
+Output file: SpireOliverChen2.bsp
+
+---- LoadMapFile ----
+         1732 faces
+          289 brushes
+          147 entities
+           29 unique texnames
+          395 texinfo
+
+Opened WAD: ../wads/hipnotic.wad
+Opened WAD: ../wads/id1.wad
+Opened WAD: ../wads/prototype_1_3.wad
+Opened WAD: ../wads/rogue.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+          279 brushes
+          248 planes
+---- CSGFaces ----
+         1672 brushfaces
+         1768 csgfaces
+         1618 mergedfaces
+---- SolidBSP ----
+         2127 split nodes
+          815 solid leafs
+         1241 empty leafs
+           72 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         4678 leaffaces
+         4219 nodefaces
+---- Portalize ----
+         1313 vis leafs
+         1313 vis clusters
+         4044 vis portals
+---- FillOutside ----
+*** WARNING 10: Reached occupant at (-560 -48 -312), no filling performed.
+Leak file written to SpireOliverChen2.pts
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+*** WARNING 10: Reached occupant at (-560 -48 -312), no filling performed.
+Processing hull 2...
+*** WARNING 10: Reached occupant at (-560 -48 -312), no filling performed.
+---- WriteBSPFile ----
+Wrote SpireOliverChen2.bsp
+          396 planes             7920
+         4813 vertexes          57756
+         2187 nodes             52488
+          334 texinfo           13360
+         4287 faces             85740
+         4247 clipnodes         33976
+         1374 leafs             38472
+         4746 marksurfaces       9492
+        17146 surfedges         68584
+        10999 edges             43996
+           29 textures         206640
+              lightdata             0
+              visdata               0
+              entdata            8980
+
+0.209 seconds elapsed
+Peak memory usage: 21415876 (20.4M)

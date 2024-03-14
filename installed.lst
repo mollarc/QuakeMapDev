@@ -4,10 +4,15 @@ set declined ""
 "bcspring" guessed=1 ver=???? gamedir= file=maps/bcspring.bsp
 "cardow" guessed=1 ver=???? gamedir= file=maps/cardow.bsp
 "coilgun" guessed=1 ver=???? gamedir= file=sound/weapons/coilgun.wav
+"deadship" guessed=1 ver=???? gamedir= file=maps/deadship.bsp
 "ocspring" guessed=1 ver=???? gamedir= file=maps/ocspring.bsp
+"owmap" guessed=1 ver=???? gamedir= file=maps/owmap.bsp
 "rrspring" guessed=1 ver=???? gamedir= file=maps/rrspring.bsp
+"sewage" guessed=1 ver=???? gamedir= file=maps/sewage.bsp
 "spawn" guessed=1 ver=???? gamedir= file=progs/spawn.mdl
+"spiral" guessed=1 ver=???? gamedir= file=maps/spiral.bsp
 "spireoc" guessed=1 ver=???? gamedir= file=maps/spireoc.bsp
+"town" guessed=1 ver=???? gamedir= file=maps/town.bsp
 "vwplayer" guessed=1 ver=???? gamedir= file=progs/vwplayer.mdl
 "v_coil" guessed=1 ver=???? gamedir= file=progs/v_coil.mdl
 "w_axe" guessed=1 ver=???? gamedir= file=progs/w_axe.mdl

@@ -1,0 +1,25 @@
+connect music.colum: 27800
+connect music.colum.edu: 27800
+connect music.colum.edu:27800
+/name Oliver Chen
+/sewage 
+/sewage 
+/sewage 
+/sewage 
+/sewage 
+/sewage 
+connect music.colum.edu:27800
+/owmap 
+/owmap 
+/owmap 
+connect music.colum.edu:27800
+spiral
+connect music.colum.edu:27800
+connect music.colum.edu:27800
+/deadship 
+/deadship 
+/deadship 
+connect music.colum.edu:27700
+/town 
+kill
+kill
